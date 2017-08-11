@@ -14,7 +14,7 @@
      var sp = new SessionParser('session');
      //Declaring object that will handle local storage
      var lp = new SessionParser('local');
-     ```
+    ```
   
 ## Methods
 
