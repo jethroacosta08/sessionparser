@@ -18,16 +18,6 @@
   
 ## Methods
 
-### init(sessionName,dataObject)
-  - initializes a two dimensional array.
-  #### Example:
-  ```javascript
-  sp.init('mySession',{
-                        saved : false, //Storing boolean value
-                        list : [], //Defining the field as array, where you can push data object later on
-                        note : "This is a note" //Storing string
-                       });
-  ```
 ### set(sessionName,value)
   - setting up of key value pair in session or local storage.
   #### Example:
@@ -39,6 +29,16 @@
   #### Example:
   ```javascript
   var userName = sp.get('username');
+  ```
+### init(sessionName,dataObject)
+  - initializes a two dimensional array.
+  #### Example:
+  ```javascript
+  sp.init('mySession',{
+                        saved : false, //Storing boolean value
+                        list : [], //Defining the field as array, where you can push data object later on
+                        note : "This is a note" //Storing string
+                       });
   ```
 ### isset(sessionName)
   - returns true or false if the session name is existing in session or local storage.
