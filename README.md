@@ -8,13 +8,13 @@
   - object that stores and manipulates values in Local Storage.
   
 ## Declaring SessionParser Object
-#### Example:
-    ```javascript
-     //Declaring object that will handle session storage
-     var sp = new SessionParser('session');
-     //Declaring object that will handle local storage
-     var lp = new SessionParser('local');
-    ```
+  #### Example:
+  ```javascript
+  //Declaring object that will handle session storage
+  var my_sp = new SessionParser('session');
+  //Declaring object that will handle local storage
+  var my_lp = new SessionParser('local');
+  ```
   
 ## Methods
 
