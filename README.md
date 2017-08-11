@@ -10,7 +10,6 @@
 ## Declaring SessionParser Object
 #### Example:
     ```javascript
-     //Declaring object that will handle session storage
      var sp = new SessionParser('session');
      //Declaring object that will handle local storage
      var lp = new SessionParser('local');
